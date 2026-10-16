@@ -1,4 +1,4 @@
-# Distributed-AI-Damage-Classification
+# Distributed AI Damage Classification Service
 Distributed AI Damage Classification
 
 An AI-powered image classification service designed to identify visible damage categories from structural or surface images and investigate distributed model inference across multiple low-cost machines.
