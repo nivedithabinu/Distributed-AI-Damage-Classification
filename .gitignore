@@ -1,18 +1,29 @@
+
 # Python
 __pycache__/
 *.py[cod]
 .venv/
+venv/
 
-# Secrets
+# Environment variables and secrets
 .env
+.env.*
 
-# Dataset files
+# Allow example environment templates
+!.env.example
+
+# Datasets: do not upload large files
 data/*
 !data/README.md
 
-# Model weights
+# Model weights: do not upload large files
 models/*
 !models/README.md
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
