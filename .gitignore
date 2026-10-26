@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Secrets
+.env
+
+# Dataset files
+data/*
+!data/README.md
+
+# Model weights
+models/*
+!models/README.md
+
+# Notebook checkpoints
+.ipynb_checkpoints/
